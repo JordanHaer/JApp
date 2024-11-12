@@ -14,19 +14,11 @@
 			remoteGlobalIDString = F0E95D762CE3F7D60018695B;
 			remoteInfo = JApp;
 		};
-		F0E95D922CE3F7D80018695B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F0E95D6F2CE3F7D60018695B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F0E95D762CE3F7D60018695B;
-			remoteInfo = JApp;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F0E95D772CE3F7D60018695B /* JApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0E95D872CE3F7D80018695B /* JAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0E95D912CE3F7D80018695B /* JAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -38,11 +30,6 @@
 		F0E95D8A2CE3F7D80018695B /* JAppTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = JAppTests;
-			sourceTree = "<group>";
-		};
-		F0E95D942CE3F7D80018695B /* JAppUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = JAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -62,13 +49,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F0E95D8E2CE3F7D80018695B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -77,7 +57,6 @@
 			children = (
 				F0E95D792CE3F7D60018695B /* JApp */,
 				F0E95D8A2CE3F7D80018695B /* JAppTests */,
-				F0E95D942CE3F7D80018695B /* JAppUITests */,
 				F0E95D782CE3F7D60018695B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,7 +66,6 @@
 			children = (
 				F0E95D772CE3F7D60018695B /* JApp.app */,
 				F0E95D872CE3F7D80018695B /* JAppTests.xctest */,
-				F0E95D912CE3F7D80018695B /* JAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,29 +118,6 @@
 			productReference = F0E95D872CE3F7D80018695B /* JAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F0E95D902CE3F7D80018695B /* JAppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F0E95DA12CE3F7D80018695B /* Build configuration list for PBXNativeTarget "JAppUITests" */;
-			buildPhases = (
-				F0E95D8D2CE3F7D80018695B /* Sources */,
-				F0E95D8E2CE3F7D80018695B /* Frameworks */,
-				F0E95D8F2CE3F7D80018695B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F0E95D932CE3F7D80018695B /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				F0E95D942CE3F7D80018695B /* JAppUITests */,
-			);
-			name = JAppUITests;
-			packageProductDependencies = (
-			);
-			productName = JAppUITests;
-			productReference = F0E95D912CE3F7D80018695B /* JAppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -177,10 +132,6 @@
 						CreatedOnToolsVersion = 16.0;
 					};
 					F0E95D862CE3F7D80018695B = {
-						CreatedOnToolsVersion = 16.0;
-						TestTargetID = F0E95D762CE3F7D60018695B;
-					};
-					F0E95D902CE3F7D80018695B = {
 						CreatedOnToolsVersion = 16.0;
 						TestTargetID = F0E95D762CE3F7D60018695B;
 					};
@@ -202,7 +153,6 @@
 			targets = (
 				F0E95D762CE3F7D60018695B /* JApp */,
 				F0E95D862CE3F7D80018695B /* JAppTests */,
-				F0E95D902CE3F7D80018695B /* JAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -216,13 +166,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F0E95D852CE3F7D80018695B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F0E95D8F2CE3F7D80018695B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -246,13 +189,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F0E95D8D2CE3F7D80018695B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -260,11 +196,6 @@
 			isa = PBXTargetDependency;
 			target = F0E95D762CE3F7D60018695B /* JApp */;
 			targetProxy = F0E95D882CE3F7D80018695B /* PBXContainerItemProxy */;
-		};
-		F0E95D932CE3F7D80018695B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F0E95D762CE3F7D60018695B /* JApp */;
-			targetProxy = F0E95D922CE3F7D80018695B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -484,40 +415,6 @@
 			};
 			name = Release;
 		};
-		F0E95DA22CE3F7D80018695B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = XV35KG5989;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Haer.Jordan.JAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = JApp;
-			};
-			name = Debug;
-		};
-		F0E95DA32CE3F7D80018695B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = XV35KG5989;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Haer.Jordan.JAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = JApp;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -544,15 +441,6 @@
 			buildConfigurations = (
 				F0E95D9F2CE3F7D80018695B /* Debug */,
 				F0E95DA02CE3F7D80018695B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F0E95DA12CE3F7D80018695B /* Build configuration list for PBXNativeTarget "JAppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F0E95DA22CE3F7D80018695B /* Debug */,
-				F0E95DA32CE3F7D80018695B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
