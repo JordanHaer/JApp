@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F0A726962CE563A6003E916B /* JFramework.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A726952CE563A6003E916B /* JFramework.xcframework */; };
+		F0A726972CE563A6003E916B /* JFramework.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0A726952CE563A6003E916B /* JFramework.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		F0E95D882CE3F7D80018695B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -16,7 +21,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F0A726982CE563A6003E916B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F0A726972CE563A6003E916B /* JFramework.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		F0A726952CE563A6003E916B /* JFramework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = JFramework.xcframework; sourceTree = "<group>"; };
 		F0E95D772CE3F7D60018695B /* JApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0E95D872CE3F7D80018695B /* JAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -39,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0A726962CE563A6003E916B /* JFramework.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,11 +73,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F0A726942CE563A6003E916B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0A726952CE563A6003E916B /* JFramework.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F0E95D6E2CE3F7D60018695B = {
 			isa = PBXGroup;
 			children = (
 				F0E95D792CE3F7D60018695B /* JApp */,
 				F0E95D8A2CE3F7D80018695B /* JAppTests */,
+				F0A726942CE563A6003E916B /* Frameworks */,
 				F0E95D782CE3F7D60018695B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -80,6 +110,7 @@
 				F0E95D732CE3F7D60018695B /* Sources */,
 				F0E95D742CE3F7D60018695B /* Frameworks */,
 				F0E95D752CE3F7D60018695B /* Resources */,
+				F0A726982CE563A6003E916B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
